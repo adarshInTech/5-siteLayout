@@ -1,0 +1,301 @@
+body{
+    background-color: #eeeeee;
+    font-family: 'Source Sans 3', sans-serif;
+    color:#aaaaaa;
+}
+.wrapper{
+    width: 1350px;
+    margin: auto;
+    background-color: #fff;
+	border: solid #BDBDBD 1px; 
+	box-shadow: 1px -3px 11px rgba(179, 179, 179, 0.3)  ; 
+	-webkit-box-shadow: 1px -3px 11px rgba(179, 179, 179, 0.3)  ; 
+	-moz-box-shadow: 1px -3px 11px rgba(179, 179, 179, 0.3)  ; 
+}
+
+h1,h2,h3,h4{
+    color:#444444;
+}
+
+.section{
+    padding-top:60px;
+    padding-bottom : 60px;
+}
+
+
+.border_btm{
+    border-bottom: 1px solid #aaaaaa;
+}
+
+
+img{
+    vertical-align: middle;
+}
+
+.img-responsive{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.btn-dark{
+    background-color: #444444;
+    color: #fff !important;
+    border: 3px #444444 solid !important;
+}
+
+.btn-light{
+    background-color: transparent;
+    color: #444444 !important;
+    border: 3px #444444 solid !important;
+}
+.btn-sm{
+    padding: 2% 6% 2% 6%;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+
+/* Navigation */
+
+.navigation_bar{
+    padding: 20px;
+}
+
+
+.ul-colums{
+    list-style: none;
+}
+
+li{
+    display:inline-block;
+    padding:10px;
+}
+
+.ul-colums>li{
+    border-right: 2px solid #d6d6d6;
+    padding-right: 30px;
+    padding-left: 30px;
+    line-height: 3px;
+    color:#7a7a7a;
+    font-size: 16px;
+}
+
+
+.ul-colums>li:last-child {
+    border-right: none;
+}
+
+.sitelogo{
+    color:#444444;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* Banner */
+
+.banner{
+    padding-top: 20px;
+}
+
+.banner-content{
+    padding-top: 120px;
+    padding-right: 211px;
+}
+
+.banner-content h1{
+    font-size:40px;
+    color:#444444;
+    line-height: 1.2;
+}
+
+.banner-content p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.banner-button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.banner-button a{
+    text-decoration: none;
+}
+
+.feature-box-margin{
+    padding: 50px 50px 50px 50px;
+}
+
+.box-heading h3{
+    font-size: 21px;
+    font-weight:500;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.feature-box i{
+    font-size:34px;
+    background-color:#ebebeb;
+    padding:15px;
+    border-radius:20px;
+    color:#444444;
+}
+
+
+/* benifits  */
+
+.benefits-content h2{
+    line-height:1.2;
+    font-family: 'Source Sans 3', sans-serif;
+    margin-bottom:20px;
+}
+
+img{
+    border-radius:15px;
+}
+
+.benefits-content{
+    padding-right:207px;
+}
+
+.p-top-0{
+    padding-top:0px !important;
+}
+
+.clients {
+    font-size: 22px;
+    font-family: 'Source Sans 3', sans-serif;
+    color:#606060;
+    padding:30px 240px 0px 240px;
+    text-align: center;
+}
+
+.border-line{
+    border-bottom: 1px solid #aaaaaa;
+    width:50%;
+}
+
+.small-image{
+    max-width:50px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+
+h2{
+    font-size:36px;
+    font-weight:500;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.contact{
+    text-align: center;
+    padding:0px 180px 0px 180px;
+
+}
+
+.text{
+    font-size: 14px !important;
+    padding-top:20px;
+    color:#aaaaaa;
+    
+}
+
+
+.form_input{
+    padding: 2%;
+}
+
+input[type=text], input[type=email] {
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid #d6d6d6;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+  input[type=submit] {
+    width: 100%;
+    background-color: #606060;
+    color: white;
+    padding: 14px 20px;
+    margin: 13px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+.download{
+    text-align: center;
+}
+ 
+
+  
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.ul-colums>li{
+    border-right: 2px solid #d6d6d6;
+    padding-right: 30px;
+    padding-left: 30px;
+    line-height: 3px;
+    color:#7a7a7a;
+    text-align: center;
+}
+
+
+.ul-colums>li:last-child {
+    border-right: none;
+}
+
+.gray_bg{
+    background-color: #f7f6f6;
+}
+
+
+.btn-lg{
+    padding: 7px 10px 7px 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btn-icon{
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+.btn-text h6{
+    font-family: 'Source Sans 3', sans-serif;
+  font-weight: 200;
+  font-size:10px;
+  
+  
+}
+
+.btn-text h5{
+    font-size:18px;
+    font-family: 'Source Sans 3', sans-serif;
+  font-weight: 400;
+  line-height: 0.8;
+}
+
+
+@media (max-width: 992px)  {
+    .wrapper{
+        width: 100%;
+        /* background-color: green; */
+    }
+}
